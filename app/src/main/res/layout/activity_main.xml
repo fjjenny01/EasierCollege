@@ -16,25 +16,33 @@
         android:gravity="right"
         android:orientation="horizontal" >
 
-
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </SearchView>
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/searchView"
             android:layout_alignRight="@+id/searchView"
-            android:hint="type to filter"
+            android:hint="Search Notes"
             android:maxLines="1"
             android:layout_alignEnd="@+id/searchView" />
 
 
     </LinearLayout>
-
-    <ListView
-        android:id="@+id/list"
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
 
-    </ListView>
+        </ListView>
+
+    </LinearLayout>
+
 
 </RelativeLayout>
