@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+
+
+    <!--<item android:id="@+id/action_search"-->
+        <!--android:title="@string/action_search"-->
+        <!--yourapp:showAsAction="always"-->
+        <!--yourapp:actionViewClass="android.widget.SearchView" />-->
+
     <item android:id="@+id/action_add"
           android:icon="@drawable/ic_action_add"
-          android:title="@string/action_add">
+          android:title="@string/action_add"
+          yourapp:showAsAction = "ifRoom">
 
-    </item>
-    <item android:id="@+id/action_edit"
-          android:icon="@drawable/ic_action_edit"
-          android:title="@string/action_edit">
     </item>
 
 

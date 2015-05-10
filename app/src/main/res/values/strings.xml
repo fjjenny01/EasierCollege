@@ -7,4 +7,11 @@
     <string name="title_activity_splash">Splash</string>
     <string name="action_add">add</string>
     <string name="action_edit">edit</string>
+    <string name="search_hint">Search Note</string>
+    <string name="app_label">App label</string>
+    <string name="action_search">Action Search</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="existing_pic">Existing Pictures</string>
+    <string name="taking_a_pic">Take a picture</string>
 </resources>

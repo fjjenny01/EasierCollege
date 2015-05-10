@@ -1,16 +1,15 @@
-package com.example.jinfang.easiercollege;
+package com.example.jinfang.easiercollege.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import android.os.Handler;
 
+import com.example.jinfang.easiercollege.R;
 
-public class Splash extends Activity{
+
+public class SplashActivity extends Activity{
 
     /** Duration of wait */
     private final int SPLASH_DISPLAY_LENGTH = 1000;
@@ -30,9 +29,9 @@ public class Splash extends Activity{
             @Override
             public void run() {
                 /* Create an Intent that will start the Main-Activity. */
-                Intent mainIntent = new Intent(Splash.this,MainActivity.class);
-                Splash.this.startActivity(mainIntent);
-                Splash.this.finish();
+                Intent mainIntent = new Intent(SplashActivity.this,MainActivity.class);
+                SplashActivity.this.startActivity(mainIntent);
+                SplashActivity.this.finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
 
