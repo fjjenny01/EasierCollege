@@ -5,6 +5,7 @@ import android.provider.BaseColumns;
 /**
  * Created by jinfang on 4/5/15.
  */
+
 public class NotesReaderContract {
 
     public NotesReaderContract() {}
